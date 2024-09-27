@@ -1,0 +1,23 @@
+Carousel / image slider: 
+https://www.youtube.com/watch?v=McPdzhLRzCg 
+
+Footer with help of ChatGPT:
+@media (max-width: 768px) {
+    footer {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        grid-template-columns: 1fr; /* Single column on very small screens */
+    }
+
+    .footer_info_area {
+        text-align: left; /* Align text to left for smaller screens */
+    }
+
+    .footer-wrapper {
+        grid-column: span 1; /* Logo stays within one column */
+    }
+}
